@@ -10,7 +10,7 @@ $imcFactory = new imcFactory();
 // The value in optimal versions will be collected from the command line.
 // By the moment, I have hardcoded value.
 // You can prove with H (male), M (female) and other values (argument error).
-$imc = $imcFactory->getImcSex('M');
+$imc = $imcFactory->getImcSex('H');
 
 $imc->getImcStatus();
 ?>
